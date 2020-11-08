@@ -1,0 +1,304 @@
+ul{
+    list-style: none;
+}
+
+.header {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul.header__nav {
+    display: flex;
+}
+
+.header__nav li{
+    margin-left: 40px;
+
+}
+.mainvisual{
+    height: 400px;
+    background: url("img/mainbg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.mainvisual__title{
+font-size: 30px;
+color: white;
+font-weight: bold;
+text-align: center;
+padding-top: 200px;
+}
+.mainvisual__subtitle{
+font-size: 30px;
+color: white;
+font-weight: bold;
+text-align: center;
+padding-top: 20px;
+}
+.about {text-align: center;
+margin: 50px;
+}
+h3.about__title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffd61a;
+    margin-bottom: 20px;
+}
+.about__subtitle{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.about__text{
+    margin-bottom: 20px;
+}
+.imgBox{
+    display: flex;
+    margin-bottom: 50px;
+
+}
+.imgBox p{
+    width: 25%;
+}
+.imgBox p img{
+    width: 100%;
+}
+
+.courseBox {
+    margin: 50px 0 ;
+}
+.course__title{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.course__text{
+    /* tac  */
+    text-align: center;
+    font-size: 20px;
+    /* mb20 */
+    margin-bottom: 20px;
+    /* lh1.8 行間を調整するおまじない*/
+    line-height: 1.8;
+}
+
+/* 箱作る */
+.line1{
+    margin: 0px;
+}
+.a1,.a2,.b1,.b2,.c1,.c2{
+    width: 50%;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.a1{
+    width: 50%;
+    float: left;
+}
+
+.a2 {
+    width: 50%;
+    float: right;
+    background-color:rgb(243, 243, 243);
+}
+.a2__title{
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.a2__text{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.line2{
+    margin: 0px;
+}
+.b1{
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+    float: left;
+    background-color:rgb(243, 243, 243);
+}
+.b1__title{
+    padding-left: 60px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.b1__text{
+    padding-left: 60px;
+
+}
+.b2{
+    width: 50%;
+    float: right;
+}
+.line3{
+    margin: 0px;
+}
+.c1{
+    width: 50%;
+    float: left;
+
+}
+.c2{
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+    float: right;
+    background-color:rgb(243, 243, 243);
+}
+.c2__title{
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.c2__text{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+/* .news */
+.newsBox__title{
+    margin-top: 50px;
+    text-align: center;
+}
+.newsBox__subtitle{
+    text-align: center;
+}
+
+ul.newsList {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.ボタン{
+    text-align: center;
+}
+.btn-square{
+    display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
+
+ol,ul{
+    list-style: none;
+}
+.koitsura{
+    display: flex;
+    justify-content: center;
+}
+.accessBox{
+    text-align: center;
+    margin-top: 50px;
+    background-color:rgb(243, 243, 243);
+}
+.地図{
+    width: 100%;
+}
+.contactBox{
+    text-align:center;
+}
+.contact__text1{
+    margin-bottom: 20px;
+}
+.contact__text2{
+    margin-bottom: 80px;
+}
+
+.name{
+    margin-left: 300px;
+    float: left;
+}
+.namebox{
+    margin-right: 360px;
+    float: right;
+    margin-left: 0px;
+
+}
+.カナ{
+    margin-left: 300px;
+    float: left;
+}
+.カナbox{
+    margin-right: 360px;
+    float: right;
+    margin-left: 0px;
+
+}
+.メールアドレス{
+    margin-left: 300px;
+    float: left;
+}
+.メールアドレスbox{
+    margin-right: 360px;
+    float: right;
+    margin-left: 0px;
+
+}
+.知ったきっかけ{
+    margin-left: 300px;
+    float: left;
+}
+.知ったきっかけbox{
+    margin-right: 360px;
+    float: right;
+    margin-left: 0px;
+
+}
+
+textarea{
+    width: 600px;
+    height: 400px;
+}
+/* 志望動機項目を縦に並べる */
+
+.志望動機{
+    margin-left: 300px;
+    float: left;
+}
+.yoshida{
+    margin-left: 0px;
+    float: right;
+}
+.詳細{
+    margin-left: 300px;
+    float: left;
+}
+.詳細text{
+    margin-top: 300px;
+    float: right;
+}
+.ボタン2{
+    margin-top: 800px;
+    text-align: center;
+}
+.infotext{
+    margin-top: 600px;
+    text-align: center;
+    background-color: #707070;
+}
+
+
